@@ -1,0 +1,102 @@
+// // ######################################
+// 			VARIABLES
+// // ######################################
+
+
+%common{
+	font-family: 'DM Sans', sans-serif;
+	font-size:16px;
+	line-height: 1.6;
+	color:#333;
+
+}
+%flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap:wrap;
+}
+%calc{
+	max-width:88%;
+	margin: auto;
+}
+
+%pic-size{
+	    width: calc(100% - 2%);
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+%head-2{
+    font-size: 30px;
+	font-weight: 500;
+	padding: 15px 0px;
+}
+%head-1{
+				text-align: center;
+				font-size: 40px;
+			    font-weight: 600;
+			    padding-top: 100px;
+			    padding-bottom: 50px;
+}
+%r-pic{
+	font-size: 16px;
+    margin-top:0px;
+    margin-left:0px;
+
+}
+
+%col-1{
+	@include col(1);
+}
+%col-2{
+	@include col(2);
+}
+%col-3{
+	@include col(3);
+}
+%col-4{
+	@include col(4);
+}
+%col-5{
+	@include col(5);
+}
+%col-6{
+	@include col(6);
+}
+%col-7{
+	@include col(7);
+}
+%col-8{
+	@include col(8);
+}
+%col-9{
+	@include col(9);
+}
+%col-10{
+	@include col(10);
+}
+%col-11{
+	@include col(11);
+}
+%col-12{
+	@include col(12);
+}
+
+%btn{
+
+padding: 17px 15px;
+    background-color: #1158e5;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+%new-btn{
+	padding: 17px 20px;
+    color: #1158e5;
+    font-size: 17px;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 3px solid #1158e5;
+}

@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333; }
+
+.row, header .row nav ul, .collaborate .row .brands div .fr-brand, .collaborate .row .brands div .sec-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+.container, header, .banner-section, .hand-pick, .collaborate, .solution-sec {
+  max-width: 88%;
+  margin: auto; }
+
+.hand-pick .row .ugo img, .hand-pick .row .noir img {
+  width: calc(100% - 2%);
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover; }
+
+.hand-pick .row .ugo h2, .hand-pick .row .noir h2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 15px 0px; }
+
+.hand-pick h1, .collaborate .row .brands h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
+.hand-pick .row .noir div {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-left: 0px; }
+
+header .row .logo, header .row .contact {
+  flex-basis: 16.6666666667%;
+  max-width: 16.6666666667%; }
+
+.solution-sec .row .col-4, .footer .container .row .col-4 {
+  flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%; }
+
+.banner-section .row .bann-text, .banner-section .row .bann-ani, .hand-pick .row .ugo, .hand-pick .row .noir, .bottom .container .row .col-6 {
+  flex-basis: 50%;
+  max-width: 50%; }
+
+.footer .container .row .col-8 {
+  flex-basis: 58.3333333333%;
+  max-width: 58.3333333333%; }
+
+header .row nav {
+  flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%; }
+
+.md-banner, .md-banner .row .col-12, .collaborate .row .brands h1 {
+  flex-basis: 100%;
+  max-width: 100%; }
+
+header .row .contact a {
+  padding: 17px 15px;
+  background-color: #1158e5;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 3px;
+  font-weight: 500; }
+
+.button a {
+  padding: 17px 20px;
+  color: #1158e5;
+  font-size: 17px;
+  border-radius: 3px;
+  font-weight: 500;
+  border: 3px solid #1158e5; }
+
+header {
+  align-items: center; }
+  header .row {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px; }
+    header .row .logo img {
+      width: 100%; }
+    header .row nav ul {
+      justify-content: center;
+      align-items: center; }
+      header .row nav ul li a {
+        text-decoration: none;
+        padding: 15px 25px;
+        padding: 15px 25px;
+        font-size: 18px; }
+    header .row .contact {
+      padding-left: 50px; }
+      header .row .contact span {
+        padding-right: 20px; }
+
+.banner-section {
+  padding: 20px 0px; }
+  .banner-section .row {
+    align-items: center; }
+    .banner-section .row .bann-text h1 {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 1.1; }
+    .banner-section .row .bann-text p {
+      font-size: 25px;
+      font-weight: 300;
+      padding: 30px 0px; }
+    .banner-section .row .bann-text a {
+      color: #1158e5;
+      font-size: 25px;
+      border-bottom: 3px solid #1158e5;
+      padding-bottom: 10px; }
+    .banner-section .row .bann-ani img {
+      max-width: 600px; }
+
+.md-banner {
+  background-color: #F0F6FF;
+  width: 100%; }
+  .md-banner .row {
+    margin: auto; }
+    .md-banner .row .col-12 h3 {
+      font-size: 30px;
+      text-align: center;
+      padding: 50px 150px;
+      color: black; }
+
+.hand-pick .row {
+  justify-content: center; }
+  .hand-pick .row .ugo div {
+    font-size: 16px;
+    margin-right: 25px; }
+  .hand-pick .row .ugo p {
+    font-size: 20px; }
+.hand-pick .row {
+  padding: 60px 0; }
+  .hand-pick .row .noir div {
+    margin-left: 25px;
+    margin-top: 60px; }
+  .hand-pick .row .noir p {
+    font-size: 20px; }
+
+.button {
+  text-align: center;
+  padding: 60px 0px; }
+  .button a {
+    transition: 0.3s; }
+  .button a:hover {
+    color: #fff;
+    background-color: #1158e5;
+    border: 3px solid #1158e5; }
+
+.collaborate .row .brands {
+  margin: auto; }
+  .collaborate .row .brands h4 {
+    font-size: 28px;
+    text-align: center; }
+  .collaborate .row .brands div .fr-brand {
+    padding: 40px 0; }
+    .collaborate .row .brands div .fr-brand li img {
+      width: 250px; }
+  .collaborate .row .brands div .sec-brand {
+    padding: 40px 0; }
+    .collaborate .row .brands div .sec-brand li img {
+      width: 250px; }
+
+.solution-sec {
+  padding-top: 100px; }
+  .solution-sec .row .col-4 {
+    padding: 10px 11px; }
+    .solution-sec .row .col-4 a {
+      width: 100%;
+      height: 100%; }
+      .solution-sec .row .col-4 a ul {
+        text-align: left;
+        padding: 46px 42px;
+        border: 1px solid #dedede;
+        border-radius: 10px;
+        transition: .5s; }
+        .solution-sec .row .col-4 a ul li h5 {
+          font-size: 22px;
+          font-weight: 600;
+          padding: 5px 0px; }
+        .solution-sec .row .col-4 a ul li p {
+          font-size: 18px; }
+        .solution-sec .row .col-4 a ul li svg {
+          text-align: right; }
+      .solution-sec .row .col-4 a ul:hover {
+        background: #1158e5;
+        color: #fff; }
+
+.footer {
+  padding-top: 100px; }
+  .footer .container {
+    border-bottom: 1px solid #dedede; }
+    .footer .container .row {
+      padding-bottom: 50px; }
+      .footer .container .row .col-4 .left-ft li img {
+        width: 200px; }
+      .footer .container .row .col-4 .left-ft li p {
+        font-size: 17px;
+        color: #999;
+        padding-right: 100px; }
+      .footer .container .row .col-8 ul li {
+        padding: 15px 0; }
+        .footer .container .row .col-8 ul li a {
+          color: #222;
+          padding: 0px 35px;
+          font-size: 18px; }
+
+.bottom .container .row .col-6 p {
+  text-align: left; }
+.bottom .container .row .col-6 {
+  text-align: right; }
+
+/*# sourceMappingURL=custom.css.map */
